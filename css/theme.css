@@ -1,0 +1,10 @@
+
+.theme__button {
+    color: rgb(227, 220, 210);
+    background-color: rgb(63, 52, 37);
+    margin-inline: 4px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}

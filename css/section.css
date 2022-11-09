@@ -1,0 +1,13 @@
+
+.section__header {
+    color: rgb(118, 76, 8);
+    background-color: rgb(245, 231, 207);
+    border: 1px solid rgb(26, 15, 1);
+    font-family: 'Bona Nova', serif;
+}
+
+.section__image {
+    border: 2px solid rgb(26, 15, 1);
+    border-radius: 2px;
+    box-shadow: 5px 5px 14px 5px #513710;
+}

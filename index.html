@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Kołodziejczyk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Lato:wght@300;400;700&family=Raleway&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header__header">Paulina Kołodziejczyk</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__linmk" href="#poza-praca">Życie poza pracą</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#ulubione-piosenki">Ulubione Piosenki</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#hobby">Hobby</a>
+            </li>
+        </ul>
+    </nav>
+    <p>
+        <button class="theme__button js-themeButton">Włącz <span class="js-themeName">ciemny</span> motyw</button>
+    </p>
+    <main>
+        <section id="o-mnie" class="section">
+
+            <h2 class="section__header"> Krótko o mnie:</h2>
+            <img class="section__image" width="70%" src="https://i.postimg.cc/c4cDBD37/IMG-6689.jpg"
+                alt="Paulina Kołodziejczyk">
+            <p>
+                <button class="button">Usuń zdjęcie</button>
+            </p>
+            <p class="section__description">Mam 29 lat, jestem żoną, mamą i nauczycielką w <span
+                    class="highlight">Szkole
+                    Podstawowej</span>, ale
+                bardzo
+                chcę spróbować swoich sił w branży
+                IT.
+            </p>
+            <p>Od moment poznania możliwości w IT, za sprawą <b>YouCode</b>, mam takie marzenie, aby <strong>uwierzyć w
+                    siebie</strong>, dokończyć to,
+                co zaczęłam i podążać tą drogą. Nawet kiedy przyjdą chwile zwątpienia, ja <em>muszę</em> to zrobić!</p>
+            <section id="poza-praca" class="section">
+                <h2 class="section__header">Czym się interesuję?</h2>
+                <p>Poza pracą i codziennymi obowiązkami <b>uczę śpiewu, gry na ukulele i gitarze</b>. Uwielbiam muzykę,
+                    a w
+                    zasadzie
+                    cała
+                    moja rodzina ją uwielbia, więc w domu zawsze coś albo ktoś gra. <i>Myślę, że bardzo nas to
+                        jednoczy.</i>
+            </section>
+            Gatunek muzyki, który najczęściej wybrzmiewa z naszych domowych głośników to muzyka
+            <b>worship/gospel.</b>
+            </p>
+            <section id="ulubione-piosenki" class="section">
+
+                <h2 class="section__header"> Nasza ostatnio grana playlista:</h2>
+
+                <div class="container">
+
+                    <table class="table">
+                        <caption class="table__caption">Najczęściej słuchane kawałki</caption>
+                        <thead>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                                <th class="table__cell table__cell--header" scope="col">Album</th>
+                                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Elevation Worship
+                                </th>
+                                <td class="table__cell">LION</td>
+                                <td class="table__cell">Lion</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Anthony Evans</th>
+                                <td class="table__cell">Altared</td>
+                                <td class="table__cell">Raise a Hallelujah</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Fred Hammond</th>
+                                <td class="table__cell">Purpose by Design</td>
+                                <td class="table__cell">I Want My Destiny</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="hobby" class="section">
+                <h2 class="section__header">Coś oprócz muzyki?</h2>
+                <p> Oczywiście!
+                    Oprócz muzyki interesuję się kinem, komiksami Marvel-a i biblią. Wiem, że to ostatnie pojęcie
+                    odbiega
+                    od powyższych, jednak jest dla mnie najważniejsze.</p>
+            </section>
+    </main>
+    <footer class="section__header">©Copyright by Paulina Kołodziejczyk, wrzesień 2022</footer>
+</body>
+
+</html>

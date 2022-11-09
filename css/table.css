@@ -1,0 +1,33 @@
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.table__cell {
+    border: 2px solid rgb(187, 174, 151);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: rgb(81, 71, 58);
+    color: rgb(245, 245, 220);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(120, 109, 74);
+}
+
+.table__row:hover {
+    background: rgb(79, 74, 61)
+}

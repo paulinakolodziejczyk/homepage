@@ -1,0 +1,8 @@
+.header__header {
+    color: rgb(62, 34, 7);
+    background-color: rgb(216, 194, 168);
+    border: 2px solid rgb(26, 15, 1);
+    font-family: 'Bona Nova', serif;
+    text-shadow: 5px 5px 14px #513710;
+    margin-inline: 5px;
+}

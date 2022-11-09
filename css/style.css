@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    background-color: rgb(244, 244, 243);
+    max-width: 1000px;
+    margin: 2px auto;
+    border: 5px solid rgb(26, 15, 1);
+    padding: 20px;
+    line-height: 2;
+}
+
+.highlight {
+    color: rgb(205, 124, 2);
+}
+
+.button {
+    color: rgb(227, 220, 210);
+    background-color: rgb(63, 52, 37);
+    margin-inline: 4px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    overflow: auto;
+}
+
+.dark {
+    color: rgb(255, 255, 255);
+    background: rgb(35, 23, 3);
+}
